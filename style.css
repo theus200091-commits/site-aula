@@ -95,14 +95,14 @@ nav {
     /* Alinha verticalmente (opcional) */
     gap: 40px;
     /* Espaço entre os elementos */
-    padding: 10px 20px;
+    padding: 15px 60px;
     /* Espaço interno do nav, opcional */
 }
 
 nav>a:hover {
     background-color: rgb(65, 182, 88);
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 5px;
 }
 
 nav>a {
@@ -111,7 +111,7 @@ nav>a {
     color: white;
     background-color: #0e731a00;
     font-weight: bold;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 h1 {
