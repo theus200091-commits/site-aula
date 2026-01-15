@@ -248,6 +248,7 @@ ol {
     /* centraliza horizontal */
     align-items: center;
     margin:auto;
+    min-width: 200px;
 }
 
 footer {
