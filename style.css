@@ -1,0 +1,266 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Tec';
+    src: url('./pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Dica: Sempre criar um "root" para a palheta de cor.
+ :root {
+ --cor1: xxxxxx;
+ --cor2: xxxxxx;
+ --cor3: xxxxxx; } 
+ Tambem podemos colocar a "font-family" dentro do "root"
+ --font-padrão: xxxxx;
+ --font-título: xxxxx;
+ -font-android: xxxx;  */
+
+body {
+    background-color: rgba(32, 246, 160, 0.862);
+}
+
+main {
+    background-color: white;
+    width: 90%;
+    /* Usa toda a largura disponível */
+    max-width: 800px;
+    /* Limite em telas grandes */
+    min-width: 500px;
+    min-height: 100vh;
+    /* Altura mínima = altura da tela */
+    margin: 0 auto 0px;
+    /* Centraliza horizontalmente */
+    padding: 20px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.539);
+}
+
+.topo {
+    background-image: linear-gradient(to bottom, #08f0a3, #0fb668, #0d4111);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.ptudo {
+    font-size: 1.5em;
+    margin-top: -65px;
+    text-align: center;
+}
+
+.curiosidade {
+    font-family: "Roboto Mono", monospace;
+    font-style: oblique;
+    text-align: center;
+    font-size: 3em;
+    padding: 2cm;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.393);
+}
+
+main strong {
+    font-weight: bold;
+    color: #0ed722;
+    padding: 3px 6px;
+}
+
+body a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0ed722;
+    background-color: #0e731a;
+    padding: 3px 6px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+}
+
+nav {
+    display: flex;
+    /* Ativa o Flexbox */
+    justify-content: flex-start;
+    /* Espaça igualmente os itens horizontalmente */
+    align-items: center;
+    /* Alinha verticalmente (opcional) */
+    gap: 40px;
+    /* Espaço entre os elementos */
+    padding: 10px 20px;
+    /* Espaço interno do nav, opcional */
+}
+
+nav>a:hover {
+    background-color: rgb(65, 182, 88);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    /* tirar a memoria-traço ao visar o link */
+    color: white;
+    background-color: #0e731a00;
+    font-weight: bold;
+    margin-right: 10px
+}
+
+h1 {
+    font-family: 'tec';
+    color: #0d4111;
+    padding: 10px;
+    margin: 5px;
+}
+
+h2 {
+    font-family: 'tec';
+    background-color: rgb(209, 238, 209);
+    color: #365c3a;
+    margin: 10px;
+    padding: 5px;
+    text-indent: px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+
+    /* Isso faz o texto se adaptar automaticamente ao tamanho da tela. */
+    margin-bottom: 16px;
+
+    text-indent: 24px;
+    /* Isso move apenas o início da primeira linha do parágrafo — exatamente como em textos e redações. */
+}
+
+.android {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 50px;
+}
+
+ol {
+    list-style: none;
+    column-count: 2;
+}
+
+.video {
+    background-color: rgb(56, 103, 51);
+    width: 90%;
+    /* Usa toda a largura disponível */
+    max-width: 800px;
+    /* Limite em telas grandes */
+    min-width: 500px;
+    min-height: 20vh;
+    /* Altura mínima = altura da tela */
+    margin: 0 auto 50px;
+    /* Centraliza horizontalmente */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* centraliza horizontal */
+    align-items: center;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.539);
+}
+
+.lista {
+    background-color: #ffffff;
+    width: 90%;
+    /* Usa toda a largura disponível */
+    max-width: 800px;
+    /* Limite em telas grandes */
+    min-width: 500px;
+    min-height: 20vh;
+    /* Altura mínima = altura da tela */
+    margin: 0 auto 50px;
+    /* Centraliza horizontalmente */
+    padding: 20px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.539);
+    margin-top: -49px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.h2lista {
+    margin-bottom: 0;
+    margin-left: 1px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: -1px;
+}
+
+.psobrando {
+    background-color: #aefcb8e1;
+    margin: 0;
+    margin-right: -1px;
+    margin-left: 1px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.listaum {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    align-items: center;
+    margin: 0 auto 50px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: -1px;
+    max-width: 1000px;
+    min-width: 510px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #000000;
+    background-color: #aefcb8e1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.listadois {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    padding: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    /* centraliza horizontal */
+    align-items: center;
+    margin: 15px
+}
+
+footer {
+    background-color: #9da49d;
+    color: white;
+    width: 90%;
+    /* Usa toda a largura disponível */
+    max-width: 840px;
+    /* Limite em telas grandes */
+    min-width: 622px;
+    min-height: 0vh;
+    /* Altura mínima = altura da tela */
+    margin: 0 auto 50px;
+    /* Centraliza horizontalmente */
+    margin-top: -50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 01px 2px 10px rgba(0, 0, 0, 0.407);
+    text-align: center;
+}
