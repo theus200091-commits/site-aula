@@ -160,7 +160,7 @@ ol {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 300px;
+    min-width: 250px;
     min-height: 20vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 50px;
@@ -179,7 +179,7 @@ ol {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 300px;
+    min-width: 250px;
     min-height: 20vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 50px;
@@ -222,7 +222,7 @@ ol {
     margin-left: 1px;
     margin-right: -1px;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 250px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
