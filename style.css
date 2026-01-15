@@ -117,8 +117,10 @@ nav>a {
 h1 {
     font-family: 'tec';
     color: #0d4111;
-    padding: 10px;
+    padding: 2px;
     margin: 5px;
+    font-size: 19px;
+    text-align: center;
 }
 
 h2 {
