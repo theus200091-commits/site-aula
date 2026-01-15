@@ -124,7 +124,7 @@ h2 {
     font-family: 'tec';
     background-color: rgb(209, 238, 209);
     color: #365c3a;
-    margin: 10px;
+    margin: auto;
     padding: 5px;
     text-indent: px;
 }
@@ -135,6 +135,7 @@ p {
     margin: 15px 0px;
     text-align: justify;
     line-height: 1.5em;
+    margin: auto;
 
     /* Isso faz o texto se adaptar automaticamente ao tamanho da tela. */
     margin-bottom: 16px;
@@ -160,7 +161,7 @@ ol {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 250px;
+    min-width: 200px;
     min-height: 20vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 50px;
@@ -179,7 +180,7 @@ ol {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 250px;
+    min-width: 200px;
     min-height: 20vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 50px;
@@ -222,7 +223,7 @@ ol {
     margin-left: 1px;
     margin-right: -1px;
     max-width: 1000px;
-    min-width: 250px;
+    min-width: 200px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
