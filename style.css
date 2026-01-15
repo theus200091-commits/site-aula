@@ -30,7 +30,7 @@ main {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 400px;
+    min-width: 200px;
     min-height: 100vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 0px;
@@ -54,6 +54,7 @@ main {
     font-size: 1.5em;
     margin-top: -65px;
     text-align: center;
+    margin: auto;
 }
 
 .curiosidade {
@@ -135,7 +136,7 @@ p {
     margin: 15px 0px;
     text-align: justify;
     line-height: 1.5em;
-    margin: auto;
+  
 
     /* Isso faz o texto se adaptar automaticamente ao tamanho da tela. */
     margin-bottom: 16px;
