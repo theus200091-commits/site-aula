@@ -161,7 +161,7 @@ ol {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 200px;
+    min-width: 300px;
     min-height: 20vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 50px;
