@@ -30,7 +30,7 @@ main {
     /* Usa toda a largura disponível */
     max-width: 800px;
     /* Limite em telas grandes */
-    min-width: 200px;
+    min-width: 400px;
     min-height: 100vh;
     /* Altura mínima = altura da tela */
     margin: 0 auto 0px;
