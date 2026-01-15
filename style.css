@@ -247,7 +247,7 @@ ol {
     justify-content: center;
     /* centraliza horizontal */
     align-items: center;
-    margin: 15px
+    margin:auto;
 }
 
 footer {
